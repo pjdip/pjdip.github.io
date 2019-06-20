@@ -1,12 +1,12 @@
 body{
 	text-align: center;
 	background: #00ECB9;
-  font-family: sans-serif;
-  font-weight: 100;
 }
 
 #anniversary_head{
   color: #396;
+	/* font-family: 'Euphoria Script', cursive; */
+	font-family: 'Parisienne', cursive;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
