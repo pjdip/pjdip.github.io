@@ -18,15 +18,11 @@ window.onclick = function(event) {
   }
 }
 
-function reveal(myDIV) {
-   console.log(myDIV)
-   var x = document.getElementById(myDIV);
-   console.log(x)
-   if (x.style.display == "") {
-     console.log('got_here')
-     x.style.display = "inline-block";
-     console.log('got_here2')
-   } else {
-     x.style.display = "none";
-   }
- }
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
