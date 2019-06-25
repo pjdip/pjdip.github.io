@@ -3,6 +3,10 @@ body{
 	background: #00ECB9;
 }
 
+#Honey_Anniversary{
+	display: none;
+}
+
 #anniversary_head{
   color: #396;
 	font-family: serif;
@@ -14,7 +18,6 @@ body{
 #anniversary_clockdiv{
 	font-family: sans-serif;
 	color: #fff;
-	display: inline-block;
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
