@@ -70,7 +70,7 @@ function reveal(myDIV) {
 
 
  var anniversary_deadline = new Date(2020, 4, 17, 0, 0, 0)
- var bellweather_deadline = new Date(2019, 7, 9, 12, 0, 0)
+ var bellwether_deadline = new Date(2019, 7, 9, 12, 0, 0)
  var bmsr_deadline = new Date(2019, 8, 19, 19, 30, 0)
  var china_deadline = new Date(2019, 6, 9, 21, 15, 0)
  var otakon_deadline = new Date(2019, 6, 26, 8, 0, 0)
@@ -80,5 +80,5 @@ initializeClock('transformus_clockdiv', transformus_deadline);
 initializeClock('otakon_clockdiv', otakon_deadline);
 initializeClock('china_clockdiv', china_deadline);
 initializeClock('bmsr_clockdiv', bmsr_deadline);
-initializeClock('bellweather_clockdiv', bellweather_deadline);
+initializeClock('bellwether_clockdiv', bellwether_deadline);
 initializeClock('anniversary_clockdiv', anniversary_deadline);

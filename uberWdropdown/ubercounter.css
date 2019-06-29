@@ -27,7 +27,7 @@ body{
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: static;
   background-color: #f1f1f1;
   min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -160,19 +160,19 @@ the .dropdown-content container when the user clicks on the dropdown button) */
 	display: inline-block;
 }
 
-#Bellweather{
+#Bellwether{
 	display:none;
 }
 
-#bellweather_head{
+#bellwether_head{
   color: #396;
-	font-family: 'Annie Use Your Telescope', cursive;
+  font-family: 'Annie Use Your Telescope', cursive;
   font-weight: 100;
   font-size: 40px;
   margin: 40px 0px 20px;
 }
 
-#bellweather_clockdiv{
+#bellwether_clockdiv{
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -181,14 +181,14 @@ the .dropdown-content container when the user clicks on the dropdown button) */
 	font-size: 30px;
 }
 
-#bellweather_clockdiv > div{
+#bellwether_clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
 	background: #00BF96;
 	display: inline-block;
 }
 
-#bellweather_clockdiv div > span{
+#bellwether_clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
 	background: #00816A;
