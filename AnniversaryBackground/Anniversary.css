@@ -24,7 +24,7 @@ body{
 }
 
 #anniversary_head{
-	color: #396;
+	color: #000;
 	/* font-family: 'Euphoria Script', cursive; */
 	font-family: 'Parisienne', cursive;
 	font-weight: 100;
@@ -44,14 +44,14 @@ body{
 #anniversary_clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #00BF96;
+	background: #b700bf;
 	display: inline-block;
 }
 
 #anniversary_clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #000181;
 	display: inline-block;
 }
 
