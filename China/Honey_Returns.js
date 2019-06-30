@@ -37,6 +37,6 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
- var deadline = new Date(2019, 6, 18, 12, 0, 0)
+ var deadline = new Date(2019, 6, 9, 21, 15, 0)
 
-initializeClock('clockdiv', deadline);
+initializeClock('china_clockdiv', deadline);
